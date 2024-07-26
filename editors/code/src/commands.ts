@@ -1154,7 +1154,7 @@ export function runSingle(ctx: CtxInit): Cmd {
         task.group = vscode.TaskGroup.Build;
         task.presentationOptions = {
             reveal: vscode.TaskRevealKind.Always,
-            panel: vscode.TaskPanelKind.Dedicated,
+            panel: vscode.TaskPanelKind.Shared,
             clear: true,
         };
 
